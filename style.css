@@ -97,3 +97,41 @@ body{
 ::placeholder{
     color: #B3B3B3;
 }
+.donate-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-card{
+    display: flex;
+    margin: 50px 40px;
+    align-items: center;
+    justify-content: center;
+}
+#card1{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+#card2{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+}
+#card3{
+    background-color: rgba(252, 252, 66, 0.349);
+    border-radius: 5px;
+}
+
+.card{
+    width: 25%;
+    height: 25%;
+    padding: 60px 30px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+.card img{
+    width: 55px;
+    height: 55px;
+    margin: 15px 0px;
+}
+
