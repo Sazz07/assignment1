@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.banner{
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.help{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 50px;
+}
+.help h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;    
+}
+.help p{
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+.donate-button{
+    background: #FF5959;
+    padding: 18px 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;    
+}
+.donate-today{
+    margin: 80px 200px;
+}
+.donate-text{
+    text-align: center;
+}
+.donate-text h1{
+    font-size: 40px;
+}
+.donate-text p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.tk-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #707070;;
+    background-color: rgba(250, 244, 244, 0.904);
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+}
+.tk-box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 209, 209);
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.amount-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.amount-form input{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    color: #B3B3B3;
+    padding: 10px 15px;
+    width: 50%;
+}
+::placeholder{
+    color: #B3B3B3;
+}
