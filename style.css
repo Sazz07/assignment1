@@ -27,7 +27,6 @@ body{
 }
 .help p{
     margin-bottom: 25px;
-    font-size: 15px;
 }
 .donate-button{
     background: #FF5959;
@@ -165,6 +164,8 @@ body{
 .half-width p{
     margin: 20px 0px;
 }
+
+
 .update-section{   
     display: flex;
     flex-direction: column;
@@ -207,6 +208,7 @@ footer{
     justify-content: center;
     padding: 30px 50px;
     color: white;
+    font-family: 'Dancing Script', cursive;
 }
 footer h1{
     color: #FF6600;
